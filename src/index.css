@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --white: #E7ECEF;
+  --black: #272932;
+  --buff: #D8A47F;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  font-family: 'montserrat', 'Courier New', Courier, monospace;
+  margin: 0;
+  color: var(--black);
+}
+
+body{
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav{
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.03);
+}
+
+#mainnav{
+  padding: 25px 20px 15px 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#mainnav figure{
+  width: 35px;
+}
+
+#subnav{
+  padding: 10px 0px;
+  font-size: 1rem;
+  gap: 35px;
+}
+.subnavclass{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#subnav p{
+  margin-left: 20px;
+  padding: 0px 20px 10px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  word-break: keep-all;
+}
+
+.remove-div{
+  display: none;
+}
+
+@media (max-width: 600px){
+  #subnav{
+      flex-direction: column;
+      gap: 0;
+  }
+  #subnav p{
+      padding: 20px 20px;
+      margin: 0;
+  }
 }
