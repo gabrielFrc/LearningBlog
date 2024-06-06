@@ -4,6 +4,7 @@ import { GoToCap } from "../components/gotocap"
 import { useEffect, useRef } from "react"
 
 import { ChaptersBuilder } from "../functions/chaptersbuilder"
+import { Navigation } from '../components/navigation'
 
 export const Languages = () => {
     const chapters = useRef([
@@ -16,6 +17,7 @@ export const Languages = () => {
 
     return (
         <>
+            <Navigation/>
             <div className="container-divisor">
                 <GoToCap/>
                 <div className="info">
