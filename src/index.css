@@ -1,7 +1,7 @@
 :root {
   --white: #E7ECEF;
   --black: #272932;
-  --buff: #D8A47F;
+  --buff: #f9bd91;
 }
 
 *{
@@ -16,53 +16,4 @@ body{
 
 a{
   text-decoration: none;
-}
-
-nav{
-  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.03);
-}
-
-#mainnav{
-  padding: 25px 20px 15px 20px;
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-}
-
-#mainnav figure{
-  width: 35px;
-}
-
-#subnav{
-  padding: 10px 0px;
-  font-size: 1rem;
-  gap: 35px;
-}
-.subnavclass{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: row;
-}
-
-#subnav p{
-  margin-left: 20px;
-  padding: 0px 20px 10px 20px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  word-break: keep-all;
-}
-
-.remove-div{
-  display: none;
-}
-
-@media (max-width: 600px){
-  #subnav{
-      flex-direction: column;
-      gap: 0;
-  }
-  #subnav p{
-      padding: 20px 20px;
-      margin: 0;
-  }
 }

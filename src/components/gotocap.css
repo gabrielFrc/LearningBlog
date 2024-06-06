@@ -1,0 +1,30 @@
+.chapter-list{
+    /* background-color: var(--buff); */
+    padding: 30px 20px 40px 20px;
+    width: 150px;
+    position: fixed;
+}
+
+.chapter-list h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chapter-list p{
+    font-size: .8rem;
+    margin-top: 10px;
+}
+.chapter-list p:hover{
+    color: var(--buff);
+}
+
+.chapter-list ul{
+    margin-left: 20px;
+    padding: 0;
+    max-width: 150px;
+    min-width: 10vw;
+}
+
+.chapter-list ul p{
+    text-decoration: underline var(--buff);
+}
