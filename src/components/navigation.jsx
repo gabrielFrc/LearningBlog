@@ -34,7 +34,7 @@ export const Navigation = () => {
                 <nav>
                     <div id="mainnav">
                         <a href="/">
-                            <h1>MyBlog</h1>
+                            <h1>Gabriel's Blog</h1>
                         </a>
                         <figure id="menubutton" onClick={() => EventClickHandler()}>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
