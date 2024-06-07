@@ -1,8 +1,4 @@
 export const ChaptersBuilder = (chapters) => {
-    // const chapters = [
-    //     '#primeira-linguagem', '#aprendendo-java', '#mudando-para-dotnet',
-    // ]
-
     window.addEventListener("popstate", () => {
         const currentHash = window.location.hash;
         chapters.forEach(element => {

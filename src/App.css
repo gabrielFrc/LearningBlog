@@ -123,7 +123,7 @@ nav {
 
 #answers .title-answers {
   background-color: var(--black);
-  width: 300px;
+  width: 400px;
   height: 50px;
   padding: 10px 30px;
   text-align: center;
@@ -132,7 +132,8 @@ nav {
 }
 
 #answers .text-answers {
-  width: 300px;
+  width: 400px;
+  height: 100%;
   padding: 50px 30px;
   text-align: center;
   align-content: center;

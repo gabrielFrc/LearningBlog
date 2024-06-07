@@ -4,8 +4,41 @@
     padding: 150px 50px 50px 50px;
     text-align: center;
 }
+#container > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
-#container h2, #container p{
-    margin-bottom: 50px;
+#container p{
+    /* margin-bottom: 20px; */
     color: var(--buff);
+}
+
+#container h3{
+    color: var(--buff);
+    margin-bottom: 10px;
+}
+#footer-title{
+    /* flex-grow: 1; */
+    color: var(--buff);
+    margin-bottom: 70px;
+}
+
+#flex-container{
+    width: 550px;
+    text-align: start;
+    /* flex-grow: 2; */
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+#flex-container > div{
+    width: 250px;
+}
+
+#flex-container a{
+    color: var(--buff);
+    text-decoration: underline var(--white);
 }

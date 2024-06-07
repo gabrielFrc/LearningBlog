@@ -30,18 +30,10 @@ function App() {
         <div id='answers'>
           <div>
             <div className='title-answers'>
-              <h3>Planejamentos</h3>
-            </div>
-            <div className='text-answers'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores a cumque vel quod non qui aperiam ad maiores laudantium animi soluta, ratione ducimus sapiente totam harum esse, voluptas est consequatur!</p>
-            </div>
-          </div>
-          <div>
-            <div className='title-answers'>
               <h3>Proposta</h3>
             </div>
             <div className='text-answers'>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident quia ut, ab repellat animi numquam deserunt dolor magni accusamus corporis quos temporibus! Aliquid tenetur ratione pariatur dolores dicta at quia.</p>
+              <p>O objetivo deste website é armazenar e potencializar meus estudos WEB ou de outras áreas como por exemplo game developer. Existe certas maneiras de se aprender um conteúdo e o quanto tempo ele vai residir na sua memória, separando as em curta, média e longa duração. </p>
             </div>
           </div>
           <div>
@@ -49,7 +41,15 @@ function App() {
               <h3>Por que um blog?</h3>
             </div>
             <div className='text-answers'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, sed adipisci unde ea, deleniti voluptate maxime necessitatibus reiciendis praesentium nesciunt architecto voluptatum accusantium hic vel recusandae enim voluptas minus error?</p>
+              <p>O ato de ensinar é uma das ferramentas que ajudam na memória de longa duração, com isso planejo guardar aqui meus conhecimentos como se estivesse ensinando a algum público ou para mim mesmo caso o conteúdo seja esquecido.</p>
+            </div>
+          </div>
+          <div>
+            <div className='title-answers'>
+              <h3>Benificios</h3>
+            </div>
+            <div className='text-answers'>
+              <p>Com esse website posso tanto como aprender mais sobre um assunto, me motivar a pesquisar mais afundo por questões didáticas e possivelmente ajudar colegas, amigos e a comunidade em si.</p>
             </div>
           </div>
         </div>
