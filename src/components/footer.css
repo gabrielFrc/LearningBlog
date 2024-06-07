@@ -7,7 +7,8 @@
 #container > div{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 
 #container p{
@@ -21,8 +22,10 @@
 }
 #footer-title{
     /* flex-grow: 1; */
+    width: 200px;
     color: var(--buff);
     margin-bottom: 70px;
+    text-align: start;
 }
 
 #flex-container{
