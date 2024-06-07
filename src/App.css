@@ -1,49 +1,139 @@
-nav{
-    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.03);
+nav {
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.03);
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#mainnav {
+  padding: 25px 20px 15px 20px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#mainnav figure {
+  width: 35px;
+}
+
+#subnav {
+  padding: 10px 0px;
+  font-size: 1rem;
+  gap: 35px;
+  background-color: white;
+}
+
+.subnavclass {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#subnav p {
+  margin-left: 20px;
+  padding: 0px 20px 10px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  word-break: keep-all;
+  font-size: .85rem;
+}
+
+.remove-div {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #subnav {
+    flex-direction: column;
+    gap: 0;
   }
-  
-  #mainnav{
-    padding: 25px 20px 15px 20px;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
+
+  #subnav p {
+    padding: 20px 20px;
+    margin: 0;
   }
-  
-  #mainnav figure{
-    width: 35px;
+}
+
+#landpage-container {
+  position: relative;
+}
+
+#landpage {
+  width: 100%;
+  min-height: 150px;
+  max-height: 550px;
+  overflow-y: hidden;
+}
+
+#landpage img {
+  width: 100%;
+}
+
+#down-arrow {
+  text-align: center;
+  opacity: 0.5;
+}
+
+#landpage-text {
+  margin: 150px 0px;
+  text-align: center;
+  color: var(--black);
+}
+
+#landpage-text:after {
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+
+  0%,
+  100% {
+    opacity: 1;
   }
-  
-  #subnav{
-    padding: 10px 0px;
-    font-size: 1rem;
-    gap: 35px;
+
+  50% {
+    opacity: 0;
   }
-  .subnavclass{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-  
-  #subnav p{
-    margin-left: 20px;
-    padding: 0px 20px 10px 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    word-break: keep-all;
-    font-size: .85rem;
-  }
-  
-  .remove-div{
-    display: none;
-  }
-  
-  @media (max-width: 600px){
-    #subnav{
-        flex-direction: column;
-        gap: 0;
-    }
-    #subnav p{
-        padding: 20px 20px;
-        margin: 0;
-    }
-  }
+}
+
+#answers {
+  position: relative;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 95vw;
+  margin: 80px auto 50px auto;
+}
+
+#answers>div {
+  height: 100%;
+  text-align: center;
+  align-content: center;
+  box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.07);
+  border-radius: 0 0 10px 10px;
+}
+
+#answers div h3 {
+  color: var(--buff);
+}
+
+#answers .title-answers {
+  background-color: var(--black);
+  width: 300px;
+  height: 50px;
+  padding: 10px 30px;
+  text-align: center;
+  align-content: center;
+  border-radius: 10px 10px 0 0;
+}
+
+#answers .text-answers {
+  width: 300px;
+  padding: 50px 30px;
+  text-align: center;
+  align-content: center;
+}
