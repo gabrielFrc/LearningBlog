@@ -68,8 +68,8 @@ export const Navigation = () => {
                         <Link to='/softskills'>
                             <p>Soft Skills</p> 
                         </Link>
-                        <Link to='/gamedevelopment'>
-                            <p>Game Development</p> 
+                        <Link to='/learn'>
+                            <p>Aprender</p> 
                         </Link>
                     </div>
                 </nav>

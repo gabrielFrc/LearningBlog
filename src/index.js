@@ -6,7 +6,7 @@ import App from './App';
 import { Languages } from './pages/languages';
 import { Technologies } from './pages/technologies';
 import { SoftSkills } from './pages/softskills';
-import { GameDev } from './pages/gamedev';
+import { Learn } from './pages/learn';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +17,7 @@ root.render(
         <Route path="/languages" element={<Languages />} />
         <Route path="/technologies" element={<Technologies />} />
         <Route path="/softskills" element={<SoftSkills />} />
-        <Route path="/gamedevelopment" element={<GameDev />} />
+        <Route path="/learn" element={<Learn />} />
         {/* outras rotas */}
       </Routes>
     </Router>

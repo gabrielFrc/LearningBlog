@@ -10,7 +10,7 @@
 
 .info{
     margin: 60px 7vw 60px calc(7vw + 220px);
-    text-align: center;
+    /* text-align: center; */
 }
 
 .info > *{
@@ -18,7 +18,7 @@
 }
 
 .info h1{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .info > figure{
@@ -30,6 +30,12 @@
 
 .info > figure img {
     width: 100%;
+}
+
+#ex{
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: -20px;
 }
 
 .highlighted-text{

@@ -1,0 +1,11 @@
+pre {
+    background-color: var(--black);
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: Consolas, "Courier New", monospace;
+}
+code{
+    color: var(--buff);
+    font-weight: 600;
+}
